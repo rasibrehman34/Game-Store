@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","Ubuntu", serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+header{
+    background: #00B4DB;
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    height: 700px;
+    border-radius: 0 0 120px 130px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo{
+    font-size: larger;
+    color: white;
+}
+header nav .logo .fa-circle-xmark{
+    font-size: 35px;
+}
+header nav .bar a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 35px 15px;
+    font-size: larger;
+}
+nav .bar button{
+    font-size: large;
+    color: white;
+    background-color: red;
+    padding:5px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.container .two{
+    display: flex;
+    justify-content: space-between;
+}
+.container .two .cont{
+    max-width: 550px;
+    margin-top: 60px;
+    font-size: large
+    
+}
+.imgOne img{
+    margin: 40px 0;
+    border-radius: 20px;
+
+}
+.imgOne .off{
+    background-color: red;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding: 20px 5px;
+    position: relative;
+    bottom: 100px;
+    right: 15px;
+    opacity: 0.85;
+}
+.cont p{
+    font-size: large;
+}
+.cont p span{
+    font-size: 40px;
+    
+}
+.cont .search{
+    margin: 50px 0;
+}
+.cont .search input{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 350px;
+}
+.cont .search button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+    right:124px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    
+
+}
+header .container .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: BLACK;
+}
+header .container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: -4px 3px 15px 0px rgb(0, 0, 0);
+}
+header .card .fa-regular{
+    color: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 14px 20px;
+    background-color: rgb(61, 61, 192);
+}
+header .card .fa-user{
+    padding: 14px 16px;
+}
+header .card .fa-circle-play{
+    padding: 15px 15px;
+    
+}
+header .card .fa-id-card{
+    padding: 15px 13px;
+}
+header .card span{
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+main{
+    min-height: 80vh;  
+}
+.main{
+    color: black;
+}
+.main .one{
+    color: red;
+    display: inline-block;
+    margin-top: 165px;
+    font-weight: bold;
+}
+main .tenbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .tenbtn>span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+main .tenbtn button{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.main .box{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main .box .card1{
+    width: 250px;
+    height: 255px;
+    border-radius: 20px;
+    background-color: rgb(212, 207, 207);
+}
+.main .box .card1 img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 250px;
+}
+.main .box .card1 p{
+    margin: 15px 15px 0;
+    color: rgb(93, 91, 91);
+    font-size: small;
+}
+.main .box .card1 span{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.fa-bag-shopping{
+    position: relative;
+    left: 50px;
+    color: white;
+    bottom: 15px;
+    background-color: red;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+
+.main2{
+    background-color: rgb(212, 207, 207);
+    height: 500px;
+    margin: 100px 0;
+    border-radius: 100px;
+}
+.container2{
+    color: black;
+}
+.container2 .one{
+    color: red;
+    display: inline-block;
+    margin-top: 55px;
+    font-weight: bold;
+    cursor: pointer;
+}
+ .box2{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.box2 .gameCard{
+    width: 170px;
+    height: 235px;
+    border-radius: 20px;
+    background-color:white
+
+}
+.box2 .gameCard img{
+    border-radius: 20px;
+    height: 150px;
+}
+.box2 .gameCard p{
+    text-align: center;
+    color: rgb(93, 91, 91);
+    font-size: small;
+    margin-top: 10px;
+}
+.box2 .gameCard span{
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    margin: 0 17px 0;
+}
+
+.box2 .gameCard button{
+    text-transform: uppercase;
+    font-size: small;
+    color: white;
+    background-color: red;
+    padding: 5px 18px;
+    border-radius: 20px;
+    border: none;
+    margin: 7px 42px 0;
+    cursor: pointer;
+}
+.categories{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.categories p {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.categories span{
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.box3{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box3 .catCard{
+    width: 190px;
+    height: 217px;
+    border-radius: 20px;
+    background-color: #007cdb;
+
+
+}
+.box3 .catCard span{
+    display: inline-block;
+    font-size: medium;
+    font-weight: 500;
+    margin: 10px 68px 12px;
+}
+.box3 .catCard img{
+    height: 170px;
+    border-radius: 20px;
+}
+.last{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.last img{
+   border-radius: 20px;
+   position: relative;
+   bottom: 60px;
+   right: 60px;
+   
+}
+.last .shop{
+    color: black;
+    min-width: 400px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 20px;
+    height: 400px;
+    position: relative;
+    z-index: 10;   
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.last .shop>span{
+    color: red;
+    font-weight: bold;   
+    text-transform: uppercase;
+}
+.last .shop h2{
+    margin-top: 10px;
+    font-size: 31px;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+.last .shop h2>span{
+    color: #007cdb;
+}
+.last .shop p{
+    margin:40px 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.last .shop button{
+    color: white;
+    font-size: 12px;
+    font-weight:bold;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.last .news{
+    height: 300px;
+    min-width: 400px;
+    border-radius: 20px;
+    background-color:rgb(223, 223, 223);
+    position: relative;
+    z-index: 10;
+    right: 120px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: black;
+
+}
+.last .news>span{
+    color: red;
+    font-weight: bold;   
+    text-transform: uppercase;
+}
+.last .news h2{
+    margin: 10px 0 30px;
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 35px;
+}
+.last .news h2>span{
+    color: #007cdb;
+}
+.last .news input{
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    width: 293px;
+}
+.last .news button{
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 20px;
+    position: relative;
+    background-color: red;
+    color: white;
+    left: 150px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: x-small;
+    bottom: 36px;
+    left: 180px;
+}
+
+footer{
+    background: #00B4DB;
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    border-radius:120px 130px  0 0 ;
+    height: 100px;
+}
+footer .container>p{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+}
